@@ -1,0 +1,164 @@
+1378218005|~|0.02|~|2.71|~|details|~|.maintenance file generated to prevent viewing partially migrated site.
+1378218005|~|0.03|~|4.02|~|details|~|Zip method caching disabled based on settings or unavailable.
+1378218005|~|0.03|~|4.02|~|details|~|Trying executable path for zip: `/usr/local/bin`.
+1378218005|~|0.03|~|4.03|~|details|~|Exec test (zip) FAILED: Test zip file not found.
+1378218005|~|0.03|~|4.03|~|details|~|Trying executable path for zip: ``.
+1378218005|~|0.04|~|4.03|~|details|~|Exec test (zip) PASSED.
+1378218005|~|0.05|~|4.03|~|details|~|Trying executable path for unzip: `/usr/local/bin`.
+1378218005|~|0.05|~|4.04|~|details|~|Exec test (unzip) FAILED: Test unzip file test failed.
+1378218005|~|0.05|~|4.04|~|details|~|Exec test (unzip) FAILED: exec Exit Code: 127
+1378218005|~|0.05|~|4.04|~|details|~|Trying executable path for unzip: ``.
+1378218005|~|0.06|~|4.04|~|details|~|Exec test (unzip) PASSED.
+1378218005|~|0.07|~|4.04|~|details|~|ZipArchive test PASSED.
+1378218005|~|0.07|~|4.04|~|details|~|PCLZip class not found. Attempting to load from `/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/importbuddy/lib/pclzip/pclzip.php`.
+1378218005|~|0.08|~|5.56|~|details|~|PclZip test PASSED.
+1378218005|~|0.08|~|5.56|~|details|~|Zip method caching disabled based on settings or unavailable.
+1378218005|~|0.08|~|5.56|~|details|~|Maximum PHP execution time was not modified
+1378218005|~|0.08|~|5.56|~|details|~|Reported PHP execution time - Configured: 60; Original: 7200; Current: 7200
+1378218005|~|0.08|~|5.56|~|details|~|Reported PHP memory limits - Configured: 128M; Original: 128M; Current: 128M
+1378218005|~|0.08|~|5.56|~|message|~|Unzipping into `/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/`
+1378218005|~|0.08|~|5.56|~|details|~|Using all available unzip methods in preferred order.
+1378218006|~|1.62|~|5.56|~|details|~|exec (unzip) extracted file contents (/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/backup-anacapa-tech_dev-2013_09_01-full-mza2ca9xmw.zip to /var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/)
+1378218006|~|1.62|~|5.56|~|details|~|Zip Archive file size: 43505405 bytes, owned by user:group 10012:504 with permissions 0644
+1378218006|~|1.62|~|5.56|~|details|~|Success extracting Zip File "/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/backup-anacapa-tech_dev-2013_09_01-full-mza2ca9xmw.zip" into "/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/".
+1378218006|~|1.62|~|5.56|~|details|~|Retrieving meta data from ZIP file (if any).
+1378218006|~|1.63|~|5.56|~|details|~|exec (unzip) retrieved comment in file /var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/backup-anacapa-tech_dev-2013_09_01-full-mza2ca9xmw.zip
+1378218006|~|1.63|~|5.56|~|details|~|Backup meta data: `Array; (;     [serial] => mza2ca9xmw;     [siteurl] => http://anacapa-tech.dev;     [type] => full;     [profile] => ;     [created] => 1377996123;     [bb_version] => 3.4.0.7;     [wp_version] => 3.6;     [dat_path] => wp-content/uploads/backupbuddy_temp/mza2ca9xmw/backupbuddy_dat.php;     [note] => ; ); `.
+1378218006|~|1.63|~|5.56|~|details|~|Checking for DAT file as reported by meta data as file `/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/wp-content/uploads/backupbuddy_temp/mza2ca9xmw/backupbuddy_dat.php`.
+1378218006|~|1.63|~|5.56|~|details|~|DAT file found based on meta path.
+1378218006|~|1.63|~|5.56|~|details|~|Loading backup dat file.
+1378218006|~|1.63|~|5.56|~|details|~|Successfully loaded backup dat file `/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/wp-content/uploads/backupbuddy_temp/mza2ca9xmw/backupbuddy_dat.php`.
+1378218006|~|1.63|~|5.56|~|details|~|DAT contents: Array; (;     [backupbuddy_version] => 3.4.0.7;     [backup_time] => 1377996123;     [backup_type] => full;     [serial] => mza2ca9xmw;     [trigger] => manual;     [wp-config_in_parent] => ;     [abspath] => /Users/adrianjonmiller/Develoment/Anacapa Tech/;     [siteurl] => http://anacapa-tech.dev;     [homeurl] => http://anacapa-tech.dev;     [blogname] => Anacapa Technologies;     [blogdescription] => ;     [db_prefix] => anacapatech_;     [db_name] => wordpress;     [db_user] => root;     [db_server] => localhost;     [db_password] => *HIDDEN*;     [db_exclusions] => ;     [breakout_tables] => Array;         (;         ); ;     [tables_sizes] => Array;         (;             [anacapatech_animalhealth_commentmeta] => 49152;             [anacapatech_animalhealth_comments] => 81920;             [anacapatech_animalhealth_links] => 32768;             [anacapatech_animalhealth_options] => 114688;             [anacapatech_animalhealth_postmeta] => 114688;             [anacapatech_animalhealth_posts] => 425984;             [anacapatech_animalhealth_term_relationships] => 32768;             [anacapatech_animalhealth_term_taxonomy] => 49152;             [anacapatech_animalhealth_terms] => 49152;             [anacapatech_animalhealth_usermeta] => 49152;             [anacapatech_animalhealth_users] => 49152;             [anacapatech_commentmeta] => 49152;             [anacapatech_comments] => 81920;             [anacapatech_contactform] => 2184;             [anacapatech_contactform_config] => 1024;             [anacapatech_contactform_submit] => 840356;             [anacapatech_contactform_submit_data] => 5271716;             [anacapatech_links] => 32768;             [anacapatech_options] => 1605632;             [anacapatech_postmeta] => 262144;             [anacapatech_posts] => 1785856;             [anacapatech_term_relationships] => 65536;             [anacapatech_term_taxonomy] => 49152;             [anacapatech_terms] => 49152;             [anacapatech_usermeta] => 49152;             [anacapatech_users] => 49152;         ); ;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; );
+1378218006|~|1.63|~|5.56|~|message|~|Renamed `.htaccess` file to `.htaccess.bb_temp` until final ImportBuddy step.
+1378218006|~|1.63|~|5.56|~|details|~|Finished step 2.
+1378218013|~|0.01|~|2.80|~|details|~|Finished step 3.
+1378218105|~|0.01|~|2.79|~|details|~|Maximum PHP execution time was not modified
+1378218105|~|0.01|~|2.79|~|details|~|Reported PHP execution time - Configured: 60; Original: 7200; Current: 7200
+1378218105|~|0.01|~|2.79|~|details|~|Reported PHP memory limits - Configured: 128M; Original: 128M; Current: 128M
+1378218105|~|0.01|~|2.79|~|message|~|Verifying database connection and settings...
+1378218105|~|0.01|~|2.79|~|message|~|Migrating `.htaccess.bb_temp` file...
+1378218105|~|0.01|~|2.79|~|message|~|Checking `.htaccess.bb_temp` file.
+1378218105|~|0.01|~|2.79|~|message|~|URL directory has changed. Updating from `` to `/anacapa-tech`.
+1378218105|~|0.01|~|2.79|~|details|~|.htaccess ^index\.php$ detected. Leaving as is.
+1378218105|~|0.01|~|2.79|~|message|~|Migrated `.htaccess.bb_temp` file. It will be renamed back to `.htaccess` on the final step.
+1378218105|~|0.01|~|2.79|~|message|~|Database connection and settings verified. Connected to database `wp_anacapa`.
+1378218105|~|0.02|~|2.97|~|details|~|Database host for dumping: `localhost`
+1378218105|~|0.02|~|2.97|~|details|~|Loading mysqldump library.
+1378218105|~|0.02|~|2.97|~|details|~|Mysql server default directories: `/usr/bin/,/usr/bin/mysql/,/usr/local/bin/`
+1378218105|~|0.02|~|2.97|~|details|~|mysqlbuddy: Force method of `0` passed.
+1378218105|~|0.02|~|2.97|~|message|~|mysqlbuddy: Method not forced. About to detect directory and available methods.
+1378218105|~|0.02|~|2.97|~|details|~|mysqlbuddy: Attempting to calculate exact mysql directory.
+1378218105|~|0.02|~|2.97|~|details|~|mysqlbuddy: Mysql reported its directory. Reported: `/usr/`; Adding binary location to beginning of mysql directory list: `/usr/bin/`
+1378218105|~|0.02|~|2.97|~|details|~|mysqldump test: Testing available mysql database dump methods.
+1378218105|~|0.02|~|2.97|~|details|~|mysqldump test: exec() function exists. Testing running mysqldump via exec().
+1378218105|~|0.02|~|2.97|~|details|~|mysqldump test running next.
+1378218105|~|0.02|~|2.97|~|details|~|exec_dir not detected. Proceeding normally.
+1378218105|~|0.02|~|2.97|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /usr/bin/mysqldump --version  2>&1` (with path definition).
+1378218105|~|0.03|~|2.97|~|details|~|exec() command output: `mysqldump  Ver 10.13 Distrib 5.1.54, for redhat-linux-gnu (x86_64)`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1378218105|~|0.03|~|2.97|~|details|~|mysqldump test: Command appears to be accessible and returns expected response.
+1378218105|~|0.03|~|2.97|~|message|~|mysqlbuddy: Detected database dump methods: `commandline,php`.
+1378218105|~|0.03|~|2.97|~|message|~|Restoring database dump. This may take a moment...
+1378218105|~|0.03|~|2.97|~|message|~|Starting database import procedure.
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Maximum execution time for this run: 7200 seconds.
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Old prefix: `anacapatech_`; New prefix: `anacapatech_`.
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Importing SQL file: `/var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/wp-content/uploads/backupbuddy_temp/mza2ca9xmw/db_1.sql`. Old prefix: `anacapatech_`. Query start: `0`.
+1378218105|~|0.03|~|2.97|~|details|~|Preparing to import using available method(s) by priority. Basing import methods off dump methods: `commandline,php`
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Attempting import method `commandline`.
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Preparing to run command line mysql import via exec().
+1378218105|~|0.03|~|2.97|~|details|~|mysqlbuddy: Running import via command line next.
+1378218105|~|0.03|~|2.97|~|details|~|exec_dir not detected. Proceeding normally.
+1378218105|~|0.03|~|2.97|~|details|~|exec() command (password hidden) `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /usr/bin/mysql --host='localhost' --user='wp_dev_anacapa' --password=*HIDDEN* --default_character_set utf8 'wp_anacapa' 2>&1 < /var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/wp-content/uploads/backupbuddy_temp/mza2ca9xmw/db_1.sql` (with path definition).
+1378218113|~|7.49|~|2.98|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1378218113|~|7.49|~|2.98|~|details|~|mysqlbuddy: Command appears to succeeded and returned proper response.
+1378218113|~|7.49|~|2.98|~|details|~|mysqlbuddy: Import method `commandline` completed successfully.
+1378218113|~|7.49|~|2.98|~|message|~|Database import procedure succeeded.
+1378218113|~|7.49|~|2.98|~|details|~|Finished step 4.
+1378218120|~|0.01|~|2.75|~|message|~|Renamed `.htaccess.bb_temp` file to `.htaccess` until final ImportBuddy step.
+1378218120|~|0.01|~|3.32|~|message|~|Migrating database content...
+1378218120|~|0.01|~|3.32|~|details|~|Destination site table prefix: anacapatech_
+1378218120|~|0.02|~|3.32|~|details|~|Migration type: standalone to standalone
+1378218120|~|0.02|~|3.32|~|details|~|Destination Site URL: http://dev.adrianmillerdesign.com/anacapa-tech
+1378218120|~|0.02|~|3.32|~|details|~|Destination Home URL: http://dev.adrianmillerdesign.com/anacapa-tech
+1378218120|~|0.02|~|3.32|~|details|~|Starting migration steps for `all` sites.
+1378218120|~|0.02|~|3.32|~|details|~|ABSPATH change for database. Old Path: /Users/adrianjonmiller/Develoment/Anacapa Tech/, New Path: /var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/.
+1378218120|~|0.02|~|3.32|~|details|~|Calculated site URL update. Previous URL: `http://anacapa-tech.dev`, New URL: `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218120|~|0.02|~|3.32|~|details|~|Finished migration steps for `all` sites.
+1378218120|~|0.02|~|3.32|~|message|~|Found 26 WordPress tables.
+1378218120|~|0.02|~|3.32|~|details|~|Old URLs: http://anacapa-tech.dev, http://www.anacapa-tech.dev
+1378218120|~|0.02|~|3.32|~|details|~|New URLs: http://dev.adrianmillerdesign.com/anacapa-tech, http://dev.adrianmillerdesign.com/anacapa-tech
+1378218120|~|0.02|~|3.32|~|details|~|Old full replace: http://anacapa-tech.dev, http://www.anacapa-tech.dev, /Users/adrianjonmiller/Develoment/Anacapa Tech/
+1378218120|~|0.02|~|3.32|~|details|~|New full replace: http://dev.adrianmillerdesign.com/anacapa-tech, http://dev.adrianmillerdesign.com/anacapa-tech, /var/www/vhosts/adrianmillerdesign.com/development/anacapa-tech/
+1378218120|~|0.02|~|3.32|~|message|~|Updating posts table site URLs.
+1378218120|~|0.07|~|3.32|~|message|~|Site URLs updated in posts table.
+1378218120|~|0.07|~|3.32|~|message|~|Replacing WordPress core database text data...
+1378218120|~|0.07|~|3.32|~|message|~|WordPress core database text replaced.
+1378218120|~|0.07|~|3.32|~|message|~|Replacing WordPress core database serialized data...
+1378218120|~|0.14|~|4.61|~|details|~|Updated serialized data in anacapatech_options.
+1378218120|~|0.17|~|4.61|~|details|~|Updated serialized data in anacapatech_postmeta.
+1378218120|~|0.17|~|4.61|~|message|~|WordPress core database serialized data replaced.
+1378218120|~|0.17|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_commentmeta`...
+1378218120|~|0.18|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_commentmeta` complete. Checked 0 items; 0 changed.
+1378218120|~|0.18|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_comments`...
+1378218120|~|0.18|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_comments` complete. Checked 15 items; 0 changed.
+1378218120|~|0.18|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_links`...
+1378218120|~|0.18|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_links` complete. Checked 0 items; 0 changed.
+1378218120|~|0.18|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_options`...
+1378218120|~|0.19|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_options` complete. Checked 608 items; 0 changed.
+1378218120|~|0.20|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_postmeta`...
+1378218120|~|0.22|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_postmeta` complete. Checked 1276 items; 0 changed.
+1378218120|~|0.22|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_posts`...
+1378218120|~|0.27|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_posts` complete. Checked 3933 items; 6 changed.
+1378218120|~|0.27|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_term_relationships`...
+1378218120|~|0.27|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_term_relationships` complete. Checked 57 items; 0 changed.
+1378218120|~|0.27|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_term_taxonomy`...
+1378218120|~|0.27|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_term_taxonomy` complete. Checked 18 items; 0 changed.
+1378218120|~|0.27|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_terms`...
+1378218120|~|0.27|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_terms` complete. Checked 12 items; 0 changed.
+1378218120|~|0.27|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_usermeta`...
+1378218120|~|0.28|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_usermeta` complete. Checked 264 items; 0 changed.
+1378218120|~|0.28|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_animalhealth_users`...
+1378218120|~|0.28|~|4.61|~|message|~|Brute force data migration for table `anacapatech_animalhealth_users` complete. Checked 30 items; 0 changed.
+1378218120|~|0.28|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_contactform`...
+1378218120|~|0.28|~|4.61|~|message|~|Brute force data migration for table `anacapatech_contactform` complete. Checked 12 items; 0 changed.
+1378218120|~|0.28|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_contactform_config`...
+1378218120|~|0.28|~|4.61|~|message|~|Brute force data migration for table `anacapatech_contactform_config` complete. Checked 0 items; 0 changed.
+1378218120|~|0.28|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_contactform_submit`...
+1378218121|~|0.49|~|4.61|~|message|~|Working... 20001 rows checked.
+1378218121|~|0.65|~|4.61|~|message|~|Brute force data migration for table `anacapatech_contactform_submit` complete. Checked 35512 items; 1 changed.
+1378218121|~|0.65|~|4.61|~|message|~|Starting brute force data migration for table `anacapatech_contactform_submit_data`...
+1378218121|~|0.91|~|4.61|~|message|~|Working... 20001 rows checked.
+1378218121|~|1.07|~|4.61|~|message|~|Working... 40002 rows checked.
+1378218121|~|1.25|~|4.61|~|message|~|Working... 60003 rows checked.
+1378218122|~|1.38|~|4.61|~|message|~|Working... 80004 rows checked.
+1378218122|~|1.52|~|4.61|~|message|~|Working... 100005 rows checked.
+1378218122|~|1.66|~|4.61|~|message|~|Working... 120006 rows checked.
+1378218122|~|1.82|~|4.61|~|message|~|Working... 140007 rows checked.
+1378218122|~|1.97|~|4.61|~|message|~|Working... 160008 rows checked.
+1378218122|~|2.14|~|4.61|~|message|~|Working... 180009 rows checked.
+1378218122|~|2.28|~|4.61|~|message|~|Working... 200010 rows checked.
+1378218123|~|2.42|~|4.61|~|message|~|Working... 220011 rows checked.
+1378218123|~|2.49|~|4.61|~|message|~|Brute force data migration for table `anacapatech_contactform_submit_data` complete. Checked 230828 items; 0 changed.
+1378218123|~|2.49|~|4.61|~|details|~|Old DB prefix: `anacapatech_`; New DB prefix: `anacapatech_`. Network prefix: `anacapatech_`
+1378218123|~|2.50|~|4.61|~|details|~|Modified 0 row(s) while updating Site URL in options table `anacapatech_options` to `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|details|~|Modified 0 row(s) while updating Home URL in options table to `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|message|~|Migrated 15 tables via brute force.
+1378218123|~|2.50|~|4.61|~|message|~|Took 2.499 seconds. Done.
+1378218123|~|2.50|~|4.61|~|message|~|Database content migrated.
+1378218123|~|2.50|~|4.61|~|details|~|Final site URL: `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|details|~|Final home URL: `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|details|~|Media upload path in database options table: ``.
+1378218123|~|2.50|~|4.61|~|details|~|Your media upload path is assigned a relative path; validity not tested.
+1378218123|~|2.50|~|4.61|~|details|~|.maintenance file exists. Checking to see if ImportBuddy generated it.
+1378218123|~|2.50|~|4.61|~|details|~|Temporary .maintenance file created by ImportBuddy successfully deleted.
+1378218123|~|2.50|~|4.61|~|details|~|index.htm file exists. Checking to see if ImportBuddy generated it.
+1378218123|~|2.50|~|4.61|~|details|~|Temporary index.htm file created by ImportBuddy successfully deleted.
+1378218123|~|2.50|~|4.61|~|details|~|DAT file indicates wp-config.php was previously in the normal location.
+1378218123|~|2.50|~|4.61|~|message|~|Starting migration of wp-config.php file...
+1378218123|~|2.50|~|4.61|~|details|~|wp-config.php: Setting WP_SITEURL (if applicable) to `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|details|~|wp-config.php: Setting WP_HOME (if applicable) to `http://dev.adrianmillerdesign.com/anacapa-tech`.
+1378218123|~|2.50|~|4.61|~|details|~|wp-config.php did not update DOMAIN_CURRENT_SITE as it was blank.
+1378218123|~|2.51|~|4.61|~|message|~|Migration of wp-config.php complete.
+1378218123|~|2.51|~|4.61|~|message|~|Import complete!
+1378218123|~|2.51|~|4.61|~|details|~|Checking wp-config.php file for unchanged URLs.
+1378218123|~|2.51|~|4.61|~|details|~|No potential problems detected.
+1378218123|~|2.51|~|4.61|~|details|~|Finished step 5.

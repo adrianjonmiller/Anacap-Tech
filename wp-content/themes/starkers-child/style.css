@@ -1,0 +1,17 @@
+/*
+Theme Name: 	Anacapa Tech Animal Health
+Description: 	Theme for Anacapa Tech Animal Health
+Version: 		0.0
+Author: 		Adrian J. Miller
+Author URI: 	http://adrianmillerdesign.com
+Template:		starkers-master
+Tags: 			starkers, naked, clean, basic
+*/
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+table tr {
+	border-top: 1px solid white;
+}

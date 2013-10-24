@@ -1,0 +1,1 @@
+1377996118|~|3.25|~|13.36|~|error|~|Fileoptions file `/Users/adrianjonmiller/Develoment/Anacapa Tech/wp-content/uploads/pb_backupbuddy/fileoptions/r18s03n1so.txt` not found and NOT in create mode. Verify file exists & check permissions.
