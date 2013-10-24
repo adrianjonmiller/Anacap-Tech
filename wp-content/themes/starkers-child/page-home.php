@@ -12,7 +12,7 @@
  * @package 	WordPress
  * @subpackage 	Starkers
  * @since 		Starkers 4.0
- Template Name: Home
+ * Template Name: Home
  */
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
